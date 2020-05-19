@@ -1,0 +1,7 @@
+## Bouncing Ball Game
+
+### Thoughts
+
+Having never used canvas elements in the past, I thought this would be an interesting challenge. My first issue was to get the ball showing on a screen, this was relatively straight forward, JavaScript makes it really easy to get started with canvas. My next issue was to then get the ball moving across the screen with a simulated gravity. I initially expected that you would be able to interact with the objects on the screen that you drew, however, it appeared that this wasn't the case based on the answers to this Stack Overflow question: '''https://stackoverflow.com/questions/6199018/moving-objects-on-html5-canvas''' as a result, I started working on redrawing my canvas to simulate the ball moving. Afterwards, I made the effect of a ball bouncing and losing momentum as you would expect as the ball is affected by gravity.
+
+I got stuck here, running out of time, I had to attempt to work out how the ball would interact with the mouse cursor, my thoughts would be that as the cursor moves across the screen, this would have an influence of the area immediately around the cursor. Doing this would allow me to adjust ball on its x-axis as the cursor moves closer, in essence, repelling the ball. Unfortunately, I was unable to create a flow in JavaScript to make this work.

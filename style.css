@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600;400&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+#canvas {
+    border: 1px solid #000000;
+}
